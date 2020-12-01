@@ -4,7 +4,7 @@ this is a simple notes taking app developed on the top of django.
 *   more details about dependencies:  requirements.txt
 *   more on runtime:  runtime.txt
 
-!(img)[design/viewsoverview.png]
+![img](design/viewsoverview.png)
 
 # deploy to heroku
 
