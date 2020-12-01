@@ -4,6 +4,8 @@ this is a simple notes taking app developed on the top of django.
 *   more details about dependencies:  requirements.txt
 *   more on runtime:  runtime.txt
 
+!(img)[design/viewsoverview.png]
+
 # deploy to heroku
 
 *   follow this blog:  https://medium.com/@shashankmohabia/deploying-a-django-app-to-heroku-using-github-repository-319c04a11c1a
