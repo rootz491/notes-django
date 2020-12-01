@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58d31477-bc27-42eb-8ee5-0a9670ea88eb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l0ivs2DwStUNVvkMAwWVhKIclG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notes/templates/notes" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notes/templates/notes" />
+      <recent name="$PROJECT_DIR$/notes/static/notes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="noteThat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58d31477-bc27-42eb-8ee5-0a9670ea88eb" name="Default Changelist" comment="" />
+      <created>1606740642745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606740642745</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="258" y="109" width="1084" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606746961336">
+      <screen x="0" y="26" width="1600" height="850" />
+    </state>
+    <state x="258" y="109" width="1084" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.26.1600.850@0.26.1600.850" timestamp="1606746961336" />
+    <state x="533" y="200" width="524" height="499" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606746663226">
+      <screen x="0" y="26" width="1600" height="850" />
+    </state>
+    <state x="533" y="200" width="524" height="499" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.26.1600.850@0.26.1600.850" timestamp="1606746663226" />
+    <state x="537" y="247" width="515" height="427" key="EnvironmentVariablesDialog" timestamp="1606746302555">
+      <screen x="0" y="26" width="1600" height="850" />
+    </state>
+    <state x="537" y="247" width="515" height="427" key="EnvironmentVariablesDialog/0.26.1600.850@0.26.1600.850" timestamp="1606746302555" />
+    <state x="583" y="219" width="424" height="482" key="FileChooserDialogImpl" timestamp="1606746316593">
+      <screen x="0" y="26" width="1600" height="850" />
+    </state>
+    <state x="583" y="219" width="424" height="482" key="FileChooserDialogImpl/0.26.1600.850@0.26.1600.850" timestamp="1606746316593" />
+    <state x="289" y="86" key="SettingsEditor" timestamp="1606740898529">
+      <screen x="0" y="26" width="1600" height="850" />
+    </state>
+    <state x="289" y="86" key="SettingsEditor/0.26.1600.850@0.26.1600.850" timestamp="1606740898529" />
+    <state x="463" y="197" key="search.everywhere.popup" timestamp="1606740854792">
+      <screen x="0" y="26" width="1600" height="850" />
+    </state>
+    <state x="463" y="197" key="search.everywhere.popup/0.26.1600.850@0.26.1600.850" timestamp="1606740854792" />
+  </component>
+</project>
