@@ -13,11 +13,22 @@ form input, form textarea {
     border: 1px solid #999999;
 }
 
-form #submit {
-    background-color: none;
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+
+form .button {
     padding: .6em;
     margin: auto;
-    font-size: 1.4em;
+    font-size: 23px;
+}
+
+a.button {
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 1000px) {
@@ -34,11 +45,18 @@ form #submit {
         padding: .3em;
         font-size: 20px;
     }
+    .button {
+        font-size: 18px;
+        padding: .5em
+    }
+    #buttons {
+        flex-direction: column;
+    }
 }
 
 
 @media screen and (max-width: 400px) {
-    input, textarea {
+    input, textarea, .button {
         font-size: 16px;
     }
 }

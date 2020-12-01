@@ -1,5 +1,6 @@
 from django.db import models
 from django.shortcuts import reverse
+from django.contrib.auth.models import User
 # Create your models here.
 
 
@@ -9,6 +10,7 @@ class note(models.Model):
         createdAt = models.DateTimeField(auto_now_add=True)
         is_bookmarked = models.BooleanField(default=False)
         id = models.CharField(max_length=32, primary_key=True)
+        user = models.ForeignKey(User, default=1, on_delete=models.CASCADE)
 
         class Meta:
                 ordering = ['-createdAt', 'title', 'content']

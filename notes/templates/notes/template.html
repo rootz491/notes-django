@@ -26,7 +26,7 @@
 <body>
 
     <div class="wrapper">
-
+        {% if user.is_authenticated %}
         <label for="hamburger" id="hamburgerLabel">
             <span></span>
         </label>
@@ -36,15 +36,15 @@
             <nav>
                 <h1>NOTES</h1>
 
-                <div><a href="{% url 'note:create' %}">Create</a></div>
                 <div><a href="{% url 'note:index' %}">View</a></div>
                 <div><a href="{% url 'note:search' %}">Search</a></div>
+                <div><a href="{% url 'note:create' %}">Create</a></div>
                 <div><a href="{% url 'note:bookmarked' %}">bookmarked</a></div>
 
                 <a href="{% url 'note:logout' %}">Logout</a>
             </nav>
         </div>
-
+        {% endif %}
         <main>
             <header>
                 <h1>

@@ -24,10 +24,10 @@
 
                 <form action="" method="POST">
                     {% csrf_token %}
-                    <input placeholder="Title" required id="title" name="title" type="input" value="{{ note.title }}" required>
-                    <textarea placeholder="Note's here" name="content" id="content" cols="40" rows="10" value="{{ note.content }}" required></textarea>
+                    <input placeholder="Title" id="title" name="title" type="input" value="{{ note.title }}" required>
+                    <textarea placeholder="Note's here" name="content" id="content" cols="40" rows="10" required>{{ note.content }}</textarea>
                     <div style="display: flex;">
-                        <input id="submit" value="save" type="submit"></input>
+                        <input id="submit" value="save" type="submit">
                     </div>
                 </form>
 
