@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="58d31477-bc27-42eb-8ee5-0a9670ea88eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/static/notes/cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/notes/static/notes/cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/templates/notes/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/notes/templates/notes/cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

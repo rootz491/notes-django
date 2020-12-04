@@ -29,27 +29,25 @@ section {
     border: 1px solid #999999;
 }
 
-/* .card:hover {
-    -webkit-animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-    animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+
+
+.bottomBtn {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    width: 90%;
 }
-    
-.card:hover .back {
-    z-index: 5;
+
+.bottomBtn button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
- */
- 
- 
- .bottomBtn {
-     position: absolute;
-     bottom: 0px;
-     left: 0px;
-     right: 0px;
-     display: flex;
-     justify-content: flex-end;
-     gap: 1em;
-     width: 90%;
- }
 
 .front {
     position: absolute;

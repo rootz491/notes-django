@@ -107,11 +107,12 @@ def edit(request, id):
 
 @login_required(login_url='note:landing')
 def delete(request, id):
-        thatNote = get_object_or_404(note, pk=id)
-        if thatNote.user != request.user:
-                return redirect('note:index')
-        thatNote.delete()
-        return HttpResponseRedirect(reverse('note:index'))
+        if request.method == 'POST':
+                thatNote = get_object_or_404(note, pk=id)
+                if thatNote.user != request.user:
+                        return redirect('note:index')
+                thatNote.delete()
+                return HttpResponseRedirect(reverse('note:index'))
 
 
 
